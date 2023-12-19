@@ -40,7 +40,7 @@ function NavigationBar() {
           style={{ flexDirection: "row-reverse" }}
           id="navbarNavAltMarkup"
         >
-          {location.pathname !== "/admin" && (
+          {window.location.pathname !== "/admin" && (
             <div className="navbar-nav  ">
               <Link
                 to="/Login"
@@ -60,7 +60,7 @@ function NavigationBar() {
             </div>
           )}
 
-          {location.pathname === "/admin" && (
+          {window.location.pathname=== "/admin" && (
             <div className="navbar-nav  ">
               <Link
                 to="/"
