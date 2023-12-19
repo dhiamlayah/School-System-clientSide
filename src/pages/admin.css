@@ -1,0 +1,13 @@
+#SMSform{
+    background-color:#cad2e3; 
+}
+
+
+@media (min-width:720px){
+    #allParents {
+        width: 30%;
+    }
+    #sendSMS{
+         width: 70%;
+    }
+}
